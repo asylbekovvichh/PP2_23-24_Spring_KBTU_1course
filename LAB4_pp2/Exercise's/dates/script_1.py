@@ -1,4 +1,4 @@
 import datetime
+dt = datetime.datetime.today().replace(microsecond=0)
 
-print(datetime.date.today() - datetime.timedelta(days = 5))
-
+print(dt)
